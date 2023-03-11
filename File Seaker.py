@@ -1,5 +1,5 @@
 from pathlib import Path
-import os, time, sys, csv
+import os, time, sys
 # importing the required modules
 
 def options():
