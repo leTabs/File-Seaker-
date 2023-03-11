@@ -1,5 +1,5 @@
 from pathlib import Path
-import os, time, sys
+import os, time, sys, csv
 # importing the required modules
 
 def options():
@@ -90,7 +90,7 @@ def file_directory(): # the first operation
         # lookinng inside the given dir and it's subdirectories
         # and searching each possible files that includes the given name
         if file_name in str(os.path.basename(location)):
-            print(f'{count}) {i}')
+            print(f'{count}) {location}')
             # if it matches the stated criteria
             # it gets printed, with an index
             count+=1
